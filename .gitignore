@@ -1,3 +1,7 @@
 # ignore backup files created by vim
 *.swp
 *.un~
+*~
+
+# ignore machine-history vim files
+.netrwhist
