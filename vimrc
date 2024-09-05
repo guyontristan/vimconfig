@@ -169,9 +169,9 @@ map <F9> :w <bar> compiler vlty <bar> make <bar> :cw <cr><esc>
 
 packadd! fzf
 packadd! fzf.vim
-nmap <Leader>f :Rg<CR>
+" nmap <Leader>f :Rg<CR>
 nmap <Leader>c :Commits<CR>
-nmap  :Files<CR>
+nmap <Leader>f :Files<CR>
 " Mapping selecting mappings
 nmap <leader><tab> <plug>(fzf-maps-n)
 xmap <leader><tab> <plug>(fzf-maps-x)
