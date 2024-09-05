@@ -180,6 +180,9 @@ omap <leader><tab> <plug>(fzf-maps-o)
 imap <c-x><c-k> <plug>(fzf-complete-word)
 imap <c-x><c-f> <plug>(fzf-complete-path)
 imap <c-x><c-l> <plug>(fzf-complete-line)
+" CUSTOM: search from ~/
+nmap <Leader>~ :FZF ~
+
 
 packadd! ale
 " let g:ale_linter_aliases={'tex':['tex','text']}
