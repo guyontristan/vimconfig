@@ -2,6 +2,7 @@
 *.swp
 *.un~
 *~
+%* # name used by vim for storing undo files
 
 # ignore machine-history vim files
 .netrwhist

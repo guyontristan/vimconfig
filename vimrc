@@ -60,10 +60,11 @@ endif
 
 " PERSONAL CHANGES
 
-" do not leave backup files in the working directory
-" set undodir=~/.vim/.undo//
+" do not leave backup and undo files in the working directory
+set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup//
 " set directory=~/.vim/.swp//
+" keep swap files in place because they only appear when problems occur anyway
 
 " my mappings
 
